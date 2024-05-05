@@ -13,7 +13,7 @@ MULTI_SELECT = "multi_select"
 book_properties_type_dict = {
     "标题": TITLE,
     "Description": RICH_TEXT,
-    "音频": RICH_TEXT,
+    "音频": URL,
     "Eid": RICH_TEXT,
     "链接": URL,
     "发布时间": DATE,
@@ -62,10 +62,10 @@ movie_properties_type_dict = {
         "date": {"start": "2024-04-02 07:00:00", "time_zone": "Asia/Shanghai"}
     },
     "音频": {
-        "rich_text": [
+        "url": [
             {
-                "type": "text",
-                "text": {
+                "type": "url",
+                "url": {
                     "content": "https://jt.ximalaya.com//GKwRINsJ3BQ4An6aiQK-6Qkb-aacv2-48K.m4a?channel=rss&album_id=29887212&track_id=718781905&uid=68693381&jt=https://audio.xmcdn.com/storages/e11f-audiofreehighqps/0B/16/GKwRINsJ3BQ4An6aiQK-6Qkb-aacv2-48K.m4a"
                 },
             }
